@@ -6,6 +6,7 @@ public class spawn : MonoBehaviour
 
     void Start()
     {
-        Instantiate(prefab, Vector3.zero, Quaternion.identity);
+        Instantiate(prefab, transform.position, Quaternion.identity); // will spawn at the object to place this script on
     }
 }
+
