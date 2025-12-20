@@ -3,7 +3,7 @@ using UnityEngine;
 public class spawn : MonoBehaviour
 {
     public GameObject prefab;
-    public bool ThanksMessage = true
+    public bool ThanksMessage = true;
     
     void Start()
     {
@@ -16,5 +16,6 @@ public class spawn : MonoBehaviour
         
     }
 }
+
 
 
